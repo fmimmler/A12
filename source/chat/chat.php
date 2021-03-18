@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat</title>
+
+    <link rel="stylesheet" href="style/styleChat.css">
 </head>
 
 <body>
@@ -26,8 +28,41 @@
   </div>
 </nav>
     
-<fieldset>
 
+<div class="heading">
+  <h1 class="display-3">
+    Chat
+  </h1>
+</div>
+<div id="chat">
+
+<p class="rightChat">text1links</p>
+<p class="rightChat">text1links</p>
+<p class="leftChat">text1links</p>
+<p class="rightChat">text1links</p>
+<p class="rightChat">text2rechts</p>
+<p class="rightChat">text2rechts</p>
+<p class="leftChat">text2rechts</p>
+<p class="rightChat">text2rechts</p>
+<p class="rightChat">text1links</p>
+<p class="rightChat">text1links</p>
+<p class="leftChat">text1links</p>
+<p class="rightChat">text1links</p>
+<p class="rightChat">text2rechts</p>
+<p class="rightChat">text2rechts</p>
+<p class="leftChat">text2rechts</p>
+<p class="rightChat">text2rechts</p>
+
+
+</div>
+<fieldset id="eingabe">
+
+<form action="" method="post">
+  <div class="d-flex flex-row">
+    <input class="col-10" type="text" name="text" id="text" placeholder="message">
+    <input class="col-2"type="submit" value="senden">
+  </div>
+</form>
 </fieldset>
 
 
