@@ -51,7 +51,7 @@
 <p class="rightChat">text2rechts</p>
 <p class="rightChat">text2rechts</p>
 <p class="leftChat">text2rechts</p>
-<p class="rightChat">text2rechts</p>
+
 
 
 </div>
